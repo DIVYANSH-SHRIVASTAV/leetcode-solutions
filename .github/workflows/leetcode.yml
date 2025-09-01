@@ -22,7 +22,8 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
-
+      - name: List files for debug
+        run: ls -R   # 🔹 Check where useful.py is
       - name: Run LeetCode Script
         run: python ./useful.py
         working-directory: ${{ github.workspace }}
