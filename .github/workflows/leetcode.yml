@@ -24,9 +24,10 @@ jobs:
         run: pip install requests
 
       - name: Run LeetCode Script
+        run: python ./useful.py
+        working-directory: ${{ github.workspace }}
         env:
           LEETCODE_USERNAME: ${{ secrets.LEETCODE_USERNAME }}
-        run: python useful.py
 
       - name: Commit & Push changes
         run: |
