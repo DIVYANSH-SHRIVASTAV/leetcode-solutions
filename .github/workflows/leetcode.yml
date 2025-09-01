@@ -22,10 +22,12 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
-      - name: List files for debug
-        run: ls -R   # 🔹 Check where useful.py is
+      - name: Debug – show current directory
+        run: |
+          pwd
+          ls -R
       - name: Run LeetCode Script
-        run: python ./useful.py
+        run: python useful.py
         working-directory: ${{ github.workspace }}
         env:
           LEETCODE_USERNAME: ${{ secrets.LEETCODE_USERNAME }}
