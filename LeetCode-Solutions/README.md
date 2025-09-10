@@ -17,3 +17,9 @@
 - **Roman to Integer** | `cpp`
 - **Two Sum** | `cpp`
 - **Wildcard Matching** | `cpp`
+- **Find the Integer Added to Array I** | `cpp`
+- **Check if Grid Satisfies Conditions** | `cpp`
+- **Snake in Matrix** | `cpp`
+- **Count Partitions with Even Sum Difference** | `cpp`
+- **Find Valid Pair of Adjacent Digits in String** | `cpp`
+- **Check Divisibility by Digit Sum and Product** | `cpp`
