@@ -23,3 +23,10 @@
 - **Count Partitions with Even Sum Difference** | `cpp`
 - **Find Valid Pair of Adjacent Digits in String** | `cpp`
 - **Check Divisibility by Digit Sum and Product** | `cpp`
+- **Edit Distance** | `cpp`
+- **Rotate Image** | `cpp`
+- **Combination Sum II** | `cpp`
+- **Find First and Last Position of Element in Sorted Array** | `cpp`
+- **4Sum** | `cpp`
+- **Immediate Food Delivery II** | `mysql`
+- **Maximum Product of Two Integers With No Common Bits** | `cpp`
