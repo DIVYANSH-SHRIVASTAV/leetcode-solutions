@@ -1,2 +1,6 @@
 # Solution for Immediate Food Delivery II in mysql
 # You can copy code manually from LeetCode
+WITH Firstorder AS(
+    SELECT *,row_number()over(partition by customer_id order by order_date)as rn from Delivery
+)
+SELECT round(SUM(if(order_date = customer_pref_delivery_date,1,0))*100/count(*),2) as immediate_percentage from Firstorder where rn =1;
